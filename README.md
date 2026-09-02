@@ -6,7 +6,7 @@ A collection of agent skills. Each one is a directory with a `SKILL.md` inside i
 
 | Skill | Does what | Status |
 | --- | --- | --- |
-| [`database-reviewer`](skills/database-reviewer/) | Reviews PostgreSQL queries, migrations, and schemas. Flags injection, missing RLS, unindexed foreign keys, and migrations that take an exclusive lock on a live table. Read-only. | working |
+| database-reviewer | Reviews PostgreSQL queries, migrations, and schemas. Flags injection, missing RLS, unindexed foreign keys, and migrations that take an exclusive lock on a live table. Read-only. | working |
 
 
 

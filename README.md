@@ -15,9 +15,8 @@ A collection of agent skills. Each one is a directory with a `SKILL.md` inside i
 ```
 agentic-skills/
   README.md
-  skills/
-    database-reviewer/
-      SKILL.md
+  database-reviewer/
+    SKILL.md
 ```
 
 One directory per skill. 

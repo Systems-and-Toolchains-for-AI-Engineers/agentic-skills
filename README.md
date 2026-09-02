@@ -1,0 +1,23 @@
+# agentic-skills
+
+A collection of agent skills. Each one is a directory with a `SKILL.md` inside it, holding instructions that your coding agent loads when a task actually calls for them. The description in the frontmatter stays in context so the agent knows the skill exists. The skill body is only loaded when it gets used.
+
+## What's in here (New Skills will be added)
+
+| Skill | Does what | Status |
+| --- | --- | --- |
+| [`database-reviewer`](skills/database-reviewer/) | Reviews PostgreSQL queries, migrations, and schemas. Flags injection, missing RLS, unindexed foreign keys, and migrations that take an exclusive lock on a live table. Read-only. | working |
+
+
+
+## Layout
+
+```
+agentic-skills/
+  README.md
+  skills/
+    database-reviewer/
+      SKILL.md
+```
+
+One directory per skill. 
